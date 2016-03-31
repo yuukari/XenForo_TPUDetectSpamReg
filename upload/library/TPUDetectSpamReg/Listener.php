@@ -21,7 +21,7 @@ class TPUDetectSpamReg_Listener
 
 	public static function listenController($class, &$extend)
 	{
-		if ($class=='XenForo_ControllerPublic_Register')
+		if ($class=='bdapiConsumer_XenForo_ControllerPublic_Register')
 		{
 			$extend[] = 'TPUDetectSpamReg_ControllerPublicRegister';
 		}
